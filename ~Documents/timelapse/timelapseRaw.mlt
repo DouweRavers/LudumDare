@@ -1,0 +1,664 @@
+<?xml version="1.0" standalone="no"?>
+<mlt LC_NUMERIC="C" version="6.25.0" title="Shotcut version 21.03.21" producer="main_bin">
+  <profile description="automatic" width="1280" height="720" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="1280" display_aspect_den="720" frame_rate_num="25" frame_rate_den="1" colorspace="709"/>
+  <producer id="producer0" in="00:00:00.000" out="02:28:58.920">
+    <property name="length">02:28:58.960</property>
+    <property name="eof">pause</property>
+    <property name="resource">D:/Recorded Videos/Ludum Dare 49 timelapse/2021-10-01 23-27-33.mkv</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2021-10-01T23:56:34</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">02cf3e9a9d3f2de3cba71b7e8391820e</property>
+  </producer>
+  <producer id="producer1" in="00:00:00.000" out="02:25:40.120">
+    <property name="length">02:25:40.160</property>
+    <property name="eof">pause</property>
+    <property name="resource">D:/Recorded Videos/Ludum Dare 49 timelapse/2021-10-01 23-30-49.mkv</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2021-10-01T23:56:30</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">2455d24bac5d71538860fa3a2a9ea17b</property>
+  </producer>
+  <producer id="producer2" in="00:00:00.000" out="09:35:48.480">
+    <property name="length">09:35:48.520</property>
+    <property name="eof">pause</property>
+    <property name="resource">D:/Recorded Videos/Ludum Dare 49 timelapse/2021-10-02 08-04-01.mkv</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2021-10-02T15:39:51</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">aa84f83917e1c1f9636f02aa9d7ed496</property>
+  </producer>
+  <producer id="producer3" in="00:00:00.000" out="09:34:57.000">
+    <property name="length">09:34:57.040</property>
+    <property name="eof">pause</property>
+    <property name="resource">D:/Recorded Videos/Ludum Dare 49 timelapse/2021-10-02 08-04-46.mkv</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2021-10-02T15:39:45</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">5c3b8fbf5b3ae70dd8e0d24e84c090f9</property>
+  </producer>
+  <producer id="producer4" in="00:00:00.000" out="00:55:11.880">
+    <property name="length">00:55:11.920</property>
+    <property name="eof">pause</property>
+    <property name="resource">D:/Recorded Videos/Ludum Dare 49 timelapse/2021-10-02 17-47-21.mkv</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2021-10-02T16:42:34</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">8385e54dcc2ccd59ef1195c2e779e761</property>
+  </producer>
+  <producer id="producer5" in="00:00:00.000" out="00:55:04.280">
+    <property name="length">00:55:04.320</property>
+    <property name="eof">pause</property>
+    <property name="resource">D:/Recorded Videos/Ludum Dare 49 timelapse/2021-10-02 17-47-25.mkv</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2021-10-02T16:42:30</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">d66562575ab9d3bfcb9d00b1ff9aeb7a</property>
+  </producer>
+  <producer id="producer6" in="00:00:00.000" out="05:45:38.400">
+    <property name="length">05:45:38.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">D:/Recorded Videos/Ludum Dare 49 timelapse/2021-10-02 20-03-22.mkv</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2021-10-02T23:49:02</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">7bf2d7991e8b07093aba9a18f96dd65b</property>
+  </producer>
+  <producer id="producer7" in="00:00:00.000" out="05:45:31.120">
+    <property name="length">05:45:31.160</property>
+    <property name="eof">pause</property>
+    <property name="resource">D:/Recorded Videos/Ludum Dare 49 timelapse/2021-10-02 20-03-26.mkv</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2021-10-02T23:48:58</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">dae8cae5d75b7266c0d9481679b2f1f6</property>
+  </producer>
+  <producer id="producer8" in="00:00:00.000" out="03:50:09.720">
+    <property name="length">03:50:09.760</property>
+    <property name="eof">pause</property>
+    <property name="resource">D:/Recorded Videos/Ludum Dare 49 timelapse/2021-10-03 10-26-47.mkv</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2021-10-03T12:18:18</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">992d74e7406e4b825354b79e1f35591d</property>
+  </producer>
+  <producer id="producer9" in="00:00:00.000" out="03:49:11.240">
+    <property name="length">03:49:11.280</property>
+    <property name="eof">pause</property>
+    <property name="resource">D:/Recorded Videos/Ludum Dare 49 timelapse/2021-10-03 10-27-03.mkv</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2021-10-03T12:16:49</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">2cb9a4bba754ecb7becc26506793e4e5</property>
+  </producer>
+  <producer id="producer10" in="00:00:00.000" out="00:39:11.760">
+    <property name="length">00:39:11.800</property>
+    <property name="eof">pause</property>
+    <property name="resource">D:/Recorded Videos/Ludum Dare 49 timelapse/2021-10-03 15-13-39.mkv</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2021-10-03T13:53:00</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">dfef9639e362aafc51a3646fb8380d48</property>
+  </producer>
+  <producer id="producer11" in="00:00:00.000" out="00:38:55.440">
+    <property name="length">00:38:55.480</property>
+    <property name="eof">pause</property>
+    <property name="resource">D:/Recorded Videos/Ludum Dare 49 timelapse/2021-10-03 15-14-01.mkv</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2021-10-03T13:53:05</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">991334a678928ab2662c8c22e72792e6</property>
+  </producer>
+  <producer id="producer12" in="00:00:00.000" out="10:11:42.720">
+    <property name="length">10:11:42.760</property>
+    <property name="eof">pause</property>
+    <property name="resource">D:/Recorded Videos/Ludum Dare 49 timelapse/2021-10-03 15-53-22.mkv</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2021-10-04T00:05:06</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">e8d5c74d3225e6eeb73e71b0b61c287c</property>
+  </producer>
+  <producer id="producer13" in="00:00:00.000" out="10:11:35.240">
+    <property name="length">10:11:35.280</property>
+    <property name="eof">pause</property>
+    <property name="resource">D:/Recorded Videos/Ludum Dare 49 timelapse/2021-10-03 15-53-25.mkv</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2021-10-04T00:05:02</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">f11f06b4a715721f86272f5b783493aa</property>
+  </producer>
+  <playlist id="main_bin" title="Shotcut version 21.03.21">
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">0</property>
+    <property name="xml_retain">1</property>
+    <entry producer="producer0" in="00:00:00.000" out="02:28:58.920"/>
+    <entry producer="producer1" in="00:00:00.000" out="02:25:40.120"/>
+    <entry producer="producer2" in="00:00:00.000" out="09:35:48.480"/>
+    <entry producer="producer3" in="00:00:00.000" out="09:34:57.000"/>
+    <entry producer="producer4" in="00:00:00.000" out="00:55:11.880"/>
+    <entry producer="producer5" in="00:00:00.000" out="00:55:04.280"/>
+    <entry producer="producer6" in="00:00:00.000" out="05:45:38.400"/>
+    <entry producer="producer7" in="00:00:00.000" out="05:45:31.120"/>
+    <entry producer="producer8" in="00:00:00.000" out="03:50:09.720"/>
+    <entry producer="producer9" in="00:00:00.000" out="03:49:11.240"/>
+    <entry producer="producer10" in="00:00:00.000" out="00:39:11.760"/>
+    <entry producer="producer11" in="00:00:00.000" out="00:38:55.440"/>
+    <entry producer="producer12" in="00:00:00.000" out="10:11:42.720"/>
+    <entry producer="producer13" in="00:00:00.000" out="10:11:35.240"/>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:40:05.360">
+    <property name="length">00:40:05.400</property>
+    <property name="eof">pause</property>
+    <property name="resource">0</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:40:05.360"/>
+  </playlist>
+  <producer id="producer14" in="00:00:00.000" out="00:02:58.720">
+    <property name="length">00:02:58.760</property>
+    <property name="eof">pause</property>
+    <property name="resource">50:D:/Recorded Videos/Ludum Dare 49 timelapse/2021-10-01 23-27-33.mkv</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="warp_speed">50</property>
+    <property name="warp_resource">D:/Recorded Videos/Ludum Dare 49 timelapse/2021-10-01 23-27-33.mkv</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">02cf3e9a9d3f2de3cba71b7e8391820e</property>
+    <property name="shotcut:caption">2021-10-01 23-27-33.mkv (50x)</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer15" in="00:00:00.000" out="00:11:29.920">
+    <property name="length">00:11:29.960</property>
+    <property name="eof">pause</property>
+    <property name="resource">50:D:/Recorded Videos/Ludum Dare 49 timelapse/2021-10-02 08-04-46.mkv</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="warp_speed">50</property>
+    <property name="warp_resource">D:/Recorded Videos/Ludum Dare 49 timelapse/2021-10-02 08-04-46.mkv</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">5c3b8fbf5b3ae70dd8e0d24e84c090f9</property>
+    <property name="shotcut:caption">2021-10-02 08-04-46.mkv (50x)</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer16" in="00:00:00.000" out="00:01:06.200">
+    <property name="length">00:01:06.240</property>
+    <property name="eof">pause</property>
+    <property name="resource">50:D:/Recorded Videos/Ludum Dare 49 timelapse/2021-10-02 17-47-21.mkv</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="warp_speed">50</property>
+    <property name="warp_resource">D:/Recorded Videos/Ludum Dare 49 timelapse/2021-10-02 17-47-21.mkv</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">8385e54dcc2ccd59ef1195c2e779e761</property>
+    <property name="shotcut:caption">2021-10-02 17-47-21.mkv (50x)</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer17" in="00:00:00.000" out="00:06:54.720">
+    <property name="length">00:06:54.760</property>
+    <property name="eof">pause</property>
+    <property name="resource">50:D:/Recorded Videos/Ludum Dare 49 timelapse/2021-10-02 20-03-22.mkv</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="warp_speed">50</property>
+    <property name="warp_resource">D:/Recorded Videos/Ludum Dare 49 timelapse/2021-10-02 20-03-22.mkv</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">7bf2d7991e8b07093aba9a18f96dd65b</property>
+    <property name="shotcut:caption">2021-10-02 20-03-22.mkv (50x)</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer18" in="00:00:00.000" out="00:04:35.000">
+    <property name="length">00:04:35.040</property>
+    <property name="eof">pause</property>
+    <property name="resource">50:D:/Recorded Videos/Ludum Dare 49 timelapse/2021-10-03 10-27-03.mkv</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="warp_speed">50</property>
+    <property name="warp_resource">D:/Recorded Videos/Ludum Dare 49 timelapse/2021-10-03 10-27-03.mkv</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">2cb9a4bba754ecb7becc26506793e4e5</property>
+    <property name="shotcut:caption">2021-10-03 10-27-03.mkv (50x)</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer19" in="00:00:00.000" out="00:00:46.680">
+    <property name="length">00:00:46.720</property>
+    <property name="eof">pause</property>
+    <property name="resource">50:D:/Recorded Videos/Ludum Dare 49 timelapse/2021-10-03 15-14-01.mkv</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="warp_speed">50</property>
+    <property name="warp_resource">D:/Recorded Videos/Ludum Dare 49 timelapse/2021-10-03 15-14-01.mkv</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">991334a678928ab2662c8c22e72792e6</property>
+    <property name="shotcut:caption">2021-10-03 15-14-01.mkv (50x)</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer20" in="00:00:00.000" out="00:12:13.880">
+    <property name="length">00:12:13.920</property>
+    <property name="eof">pause</property>
+    <property name="resource">50:D:/Recorded Videos/Ludum Dare 49 timelapse/2021-10-03 15-53-25.mkv</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="warp_speed">50</property>
+    <property name="warp_resource">D:/Recorded Videos/Ludum Dare 49 timelapse/2021-10-03 15-53-25.mkv</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">f11f06b4a715721f86272f5b783493aa</property>
+    <property name="shotcut:caption">2021-10-03 15-53-25.mkv (50x)</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <entry producer="producer14" in="00:00:00.000" out="00:02:58.720"/>
+    <entry producer="producer15" in="00:00:00.000" out="00:11:29.920"/>
+    <entry producer="producer16" in="00:00:00.000" out="00:01:06.200"/>
+    <entry producer="producer17" in="00:00:00.000" out="00:06:54.720"/>
+    <entry producer="producer18" in="00:00:00.000" out="00:04:35.000"/>
+    <entry producer="producer19" in="00:00:00.000" out="00:00:46.680"/>
+    <entry producer="producer20" in="00:00:00.000" out="00:12:13.880"/>
+  </playlist>
+  <producer id="producer21" in="00:00:00.000" out="00:02:54.760">
+    <property name="length">00:02:54.800</property>
+    <property name="eof">pause</property>
+    <property name="resource">50:D:/Recorded Videos/Ludum Dare 49 timelapse/2021-10-01 23-30-49.mkv</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="warp_speed">50</property>
+    <property name="warp_resource">D:/Recorded Videos/Ludum Dare 49 timelapse/2021-10-01 23-30-49.mkv</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">2455d24bac5d71538860fa3a2a9ea17b</property>
+    <property name="shotcut:caption">2021-10-01 23-30-49.mkv (50x)</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter0" out="00:02:54.760">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">756.665 397.351 513.283 288.722 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer22" in="00:00:00.000" out="00:11:30.920">
+    <property name="length">00:11:30.960</property>
+    <property name="eof">pause</property>
+    <property name="resource">50:D:/Recorded Videos/Ludum Dare 49 timelapse/2021-10-02 08-04-01.mkv</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="warp_speed">50</property>
+    <property name="warp_resource">D:/Recorded Videos/Ludum Dare 49 timelapse/2021-10-02 08-04-01.mkv</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">aa84f83917e1c1f9636f02aa9d7ed496</property>
+    <property name="shotcut:caption">2021-10-02 08-04-01.mkv (50x)</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter1" out="00:11:29.960">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">756.665 397.351 513.283 288.722 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer23" in="00:00:00.000" out="00:01:06.040">
+    <property name="length">00:01:06.080</property>
+    <property name="eof">pause</property>
+    <property name="resource">50:D:/Recorded Videos/Ludum Dare 49 timelapse/2021-10-02 17-47-25.mkv</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="warp_speed">50</property>
+    <property name="warp_resource">D:/Recorded Videos/Ludum Dare 49 timelapse/2021-10-02 17-47-25.mkv</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">d66562575ab9d3bfcb9d00b1ff9aeb7a</property>
+    <property name="shotcut:caption">2021-10-02 17-47-25.mkv (50x)</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter2" out="00:01:06.040">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">756.665 397.351 513.283 288.722 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer24" in="00:00:00.000" out="00:06:54.600">
+    <property name="length">00:06:54.640</property>
+    <property name="eof">pause</property>
+    <property name="resource">50:D:/Recorded Videos/Ludum Dare 49 timelapse/2021-10-02 20-03-26.mkv</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="warp_speed">50</property>
+    <property name="warp_resource">D:/Recorded Videos/Ludum Dare 49 timelapse/2021-10-02 20-03-26.mkv</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">dae8cae5d75b7266c0d9481679b2f1f6</property>
+    <property name="shotcut:caption">2021-10-02 20-03-26.mkv (50x)</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter3" out="00:06:54.600">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">756.665 397.351 513.283 288.722 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer25" in="00:00:00.000" out="00:04:36.160">
+    <property name="length">00:04:36.200</property>
+    <property name="eof">pause</property>
+    <property name="resource">50:D:/Recorded Videos/Ludum Dare 49 timelapse/2021-10-03 10-26-47.mkv</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="warp_speed">50</property>
+    <property name="warp_resource">D:/Recorded Videos/Ludum Dare 49 timelapse/2021-10-03 10-26-47.mkv</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">992d74e7406e4b825354b79e1f35591d</property>
+    <property name="shotcut:caption">2021-10-03 10-26-47.mkv (50x)</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter4" out="00:04:35.040">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">756.665 397.351 513.283 288.722 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer26" in="00:00:00.000" out="00:00:47.000">
+    <property name="length">00:00:47.040</property>
+    <property name="eof">pause</property>
+    <property name="resource">50:D:/Recorded Videos/Ludum Dare 49 timelapse/2021-10-03 15-13-39.mkv</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="warp_speed">50</property>
+    <property name="warp_resource">D:/Recorded Videos/Ludum Dare 49 timelapse/2021-10-03 15-13-39.mkv</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">dfef9639e362aafc51a3646fb8380d48</property>
+    <property name="shotcut:caption">2021-10-03 15-13-39.mkv (50x)</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter5" out="00:00:46.720">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">756.665 397.351 513.283 288.722 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer27" in="00:00:00.000" out="00:12:14.000">
+    <property name="length">00:12:14.040</property>
+    <property name="eof">pause</property>
+    <property name="resource">50:D:/Recorded Videos/Ludum Dare 49 timelapse/2021-10-03 15-53-22.mkv</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="warp_speed">50</property>
+    <property name="warp_resource">D:/Recorded Videos/Ludum Dare 49 timelapse/2021-10-03 15-53-22.mkv</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">e8d5c74d3225e6eeb73e71b0b61c287c</property>
+    <property name="shotcut:caption">2021-10-03 15-53-22.mkv (50x)</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter6" out="00:12:14.000">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">756.665 397.351 513.283 288.722 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <playlist id="playlist1">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V2</property>
+    <entry producer="producer21" in="00:00:00.000" out="00:02:54.760"/>
+    <blank length="00:00:03.960"/>
+    <entry producer="producer22" in="00:00:00.000" out="00:11:29.960"/>
+    <entry producer="producer23" in="00:00:00.000" out="00:01:06.040"/>
+    <entry producer="producer24" in="00:00:00.000" out="00:06:54.600"/>
+    <entry producer="producer25" in="00:00:00.000" out="00:04:35.040"/>
+    <entry producer="producer26" in="00:00:00.000" out="00:00:46.720"/>
+    <entry producer="producer27" in="00:00:00.000" out="00:12:14.000"/>
+  </playlist>
+  <tractor id="tractor0" title="Shotcut version 21.03.21" global_feed="1" in="00:00:00.000" out="00:40:05.360">
+    <property name="shotcut">1</property>
+    <property name="shotcut:scaleFactor">0.01</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">0</property>
+    <track producer="background"/>
+    <track producer="playlist0"/>
+    <track producer="playlist1"/>
+    <transition id="transition0">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition1">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="threads">0</property>
+      <property name="disable">1</property>
+    </transition>
+    <transition id="transition2">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition3">
+      <property name="a_track">1</property>
+      <property name="b_track">2</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="threads">0</property>
+      <property name="disable">0</property>
+    </transition>
+  </tractor>
+</mlt>

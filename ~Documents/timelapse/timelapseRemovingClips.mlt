@@ -1,0 +1,507 @@
+<?xml version="1.0" standalone="no"?>
+<mlt LC_NUMERIC="C" version="6.25.0" title="Shotcut version 21.03.21" producer="main_bin">
+  <profile description="automatic" width="1280" height="720" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="1280" display_aspect_den="720" frame_rate_num="25" frame_rate_den="1" colorspace="709"/>
+  <playlist id="main_bin">
+    <property name="xml_retain">1</property>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:17:07.440">
+    <property name="length">00:17:07.480</property>
+    <property name="eof">pause</property>
+    <property name="resource">0</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:17:07.440"/>
+  </playlist>
+  <producer id="producer0" in="00:00:00.000" out="00:20:02.680">
+    <property name="length">00:20:02.720</property>
+    <property name="eof">pause</property>
+    <property name="resource">2:timelapse.mp4</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="warp_speed">2</property>
+    <property name="warp_resource">timelapse.mp4</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">89097904704f9f2dc147bd0da6eabcbf</property>
+    <property name="shotcut:caption">timelapse.mp4 (2x)</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:defaultAudioIndex">1</property>
+  </producer>
+  <producer id="producer1" in="00:00:00.000" out="00:20:02.680">
+    <property name="length">00:20:02.720</property>
+    <property name="eof">pause</property>
+    <property name="resource">2:timelapse.mp4</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="warp_speed">2</property>
+    <property name="warp_resource">timelapse.mp4</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">89097904704f9f2dc147bd0da6eabcbf</property>
+    <property name="shotcut:caption">timelapse.mp4 (2x)</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer2" in="00:00:00.000" out="00:20:02.680">
+    <property name="length">00:20:02.720</property>
+    <property name="eof">pause</property>
+    <property name="resource">2:timelapse.mp4</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="warp_speed">2</property>
+    <property name="warp_resource">timelapse.mp4</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">89097904704f9f2dc147bd0da6eabcbf</property>
+    <property name="shotcut:caption">timelapse.mp4 (2x)</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer3" in="00:00:00.000" out="00:20:02.680">
+    <property name="length">00:20:02.720</property>
+    <property name="eof">pause</property>
+    <property name="resource">2:timelapse.mp4</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="warp_speed">2</property>
+    <property name="warp_resource">timelapse.mp4</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">89097904704f9f2dc147bd0da6eabcbf</property>
+    <property name="shotcut:caption">timelapse.mp4 (2x)</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer4" in="00:00:00.000" out="00:20:02.680">
+    <property name="length">00:20:02.720</property>
+    <property name="eof">pause</property>
+    <property name="resource">2:timelapse.mp4</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="warp_speed">2</property>
+    <property name="warp_resource">timelapse.mp4</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">89097904704f9f2dc147bd0da6eabcbf</property>
+    <property name="shotcut:caption">timelapse.mp4 (2x)</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer5" in="00:00:00.000" out="00:20:02.680">
+    <property name="length">00:20:02.720</property>
+    <property name="eof">pause</property>
+    <property name="resource">2:timelapse.mp4</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="warp_speed">2</property>
+    <property name="warp_resource">timelapse.mp4</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">89097904704f9f2dc147bd0da6eabcbf</property>
+    <property name="shotcut:caption">timelapse.mp4 (2x)</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer6" in="00:00:00.000" out="00:20:02.680">
+    <property name="length">00:20:02.720</property>
+    <property name="eof">pause</property>
+    <property name="resource">2:timelapse.mp4</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="warp_speed">2</property>
+    <property name="warp_resource">timelapse.mp4</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">89097904704f9f2dc147bd0da6eabcbf</property>
+    <property name="shotcut:caption">timelapse.mp4 (2x)</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer7" in="00:00:00.000" out="00:20:02.680">
+    <property name="length">00:20:02.720</property>
+    <property name="eof">pause</property>
+    <property name="resource">2:timelapse.mp4</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="warp_speed">2</property>
+    <property name="warp_resource">timelapse.mp4</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">89097904704f9f2dc147bd0da6eabcbf</property>
+    <property name="shotcut:caption">timelapse.mp4 (2x)</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer8" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#FF1E9318</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="shotcut:caption">#FF1E9318</property>
+    <property name="shotcut:detail">#FF1E9318</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <filter id="filter0" out="00:00:03.960">
+      <property name="argument">Thanks for watching</property>
+      <property name="geometry">-15 263 1280 180 1</property>
+      <property name="family">Verdana</property>
+      <property name="size">100</property>
+      <property name="weight">750</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#40ffb6</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa134f15</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">top</property>
+      <property name="outline">6</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">60</property>
+    </filter>
+  </producer>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <entry producer="producer0" in="00:01:09.120" out="00:01:33.000"/>
+    <entry producer="producer1" in="00:01:53.800" out="00:06:19.760"/>
+    <entry producer="producer2" in="00:06:24.480" out="00:07:09.160"/>
+    <entry producer="producer3" in="00:07:12.880" out="00:07:46.960"/>
+    <entry producer="producer4" in="00:07:47.560" out="00:13:09.440"/>
+    <entry producer="producer5" in="00:13:20.240" out="00:13:44.520"/>
+    <entry producer="producer6" in="00:13:52.440" out="00:15:57.440"/>
+    <entry producer="producer7" in="00:16:04.400" out="00:19:07.800"/>
+    <entry producer="producer8" in="00:00:00.000" out="00:00:03.960"/>
+  </playlist>
+  <producer id="producer9" in="00:00:00.000" out="00:01:59.080">
+    <property name="length">00:01:59.120</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/douwe/Downloads/in-the-forest-ambient-acoustic-guitar-instrumental-background-music-for-videos-5718.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2021-10-05T11:44:03</property>
+    <property name="shotcut:hash">5ff7d44f737c2d32f1974131a9268d72</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">in-the-forest-ambient-acoustic-guitar-instrumental-background-music-for-videos-5718.mp3</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer10" in="00:00:00.000" out="00:01:58.760">
+    <property name="length">00:01:58.800</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/douwe/Downloads/my-life-main-6670.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2021-10-05T11:45:43</property>
+    <property name="shotcut:hash">e7a84414bcf8d89875b6c5547969149c</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">my-life-main-6670.mp3</property>
+    <property name="xml">was here</property>
+  </producer>
+  <tractor id="tractor0" global_feed="1" in="00:00:00.000" out="00:00:03.240">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer9" in="00:01:55.840" out="00:01:59.080"/>
+    <track producer="producer10" in="00:00:00.000" out="00:00:03.240"/>
+    <transition id="transition0" out="00:00:03.240">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition1" out="00:00:03.240">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer11" in="00:00:00.000" out="00:03:03.400">
+    <property name="length">00:03:03.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/douwe/Downloads/cinematic-chillhop-main-6676.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2021-10-05T11:43:00</property>
+    <property name="shotcut:hash">39723a6be8443106a54a2c98c406c008</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">cinematic-chillhop-main-6676.mp3</property>
+    <property name="xml">was here</property>
+  </producer>
+  <tractor id="tractor1" global_feed="1" in="00:00:00.000" out="00:00:03.800">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer10" in="00:01:54.960" out="00:01:58.760"/>
+    <track producer="producer11" in="00:00:00.000" out="00:00:03.800"/>
+    <transition id="transition2" out="00:00:03.800">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition3" out="00:00:03.800">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer12" in="00:00:00.000" out="00:02:19.960">
+    <property name="length">00:02:20.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/douwe/Downloads/freedom-inspired-cinematic-background-music-for-video-5606.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2021-10-05T11:46:00</property>
+    <property name="shotcut:hash">ebb1e88992d44477aa00cc0c5fc1bfba</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">freedom-inspired-cinematic-background-music-for-video-5606.mp3</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:defaultAudioIndex">0</property>
+  </producer>
+  <tractor id="tractor2" global_feed="1" in="00:00:00.000" out="00:00:03.200">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer11" in="00:03:00.200" out="00:03:03.400"/>
+    <track producer="producer12" in="00:00:00.000" out="00:00:03.200"/>
+    <transition id="transition4" out="00:00:03.200">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition5" out="00:00:03.200">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer13" in="00:00:00.000" out="00:03:45.960">
+    <property name="length">00:03:46.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/douwe/Downloads/nightlife-michael-kobrin-95bpm-3783.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2021-10-05T11:53:25</property>
+    <property name="shotcut:hash">db95c19d6ecca894e9e11296d1261f4c</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">nightlife-michael-kobrin-95bpm-3783.mp3</property>
+    <property name="xml">was here</property>
+  </producer>
+  <tractor id="tractor3" global_feed="1" in="00:00:00.000" out="00:00:04.720">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer12" in="00:02:15.240" out="00:02:19.960"/>
+    <track producer="producer13" in="00:00:00.000" out="00:00:04.720"/>
+    <transition id="transition6" out="00:00:04.720">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition7" out="00:00:04.720">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer14" in="00:00:00.000" out="00:01:38.000">
+    <property name="length">00:01:38.040</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/douwe/Downloads/jacob-field-moonshiner-royalty-free-music-8866.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2021-10-05T11:53:10</property>
+    <property name="shotcut:hash">a8058b898d083f309afa8256a8a9c75c</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">jacob-field-moonshiner-royalty-free-music-8866.mp3</property>
+    <property name="xml">was here</property>
+  </producer>
+  <tractor id="tractor4" global_feed="1" in="00:00:00.000" out="00:00:03.240">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer13" in="00:03:42.720" out="00:03:45.960"/>
+    <track producer="producer14" in="00:00:00.000" out="00:00:03.240"/>
+    <transition id="transition8" out="00:00:03.240">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition9" out="00:00:03.240">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+      <property name="mlt_service">mix</property>
+    </transition>
+  </tractor>
+  <producer id="producer15" in="00:00:00.000" out="00:02:42.200">
+    <property name="length">00:02:42.240</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/douwe/Downloads/under-pressure-michael-kobrin-105bpm-3781.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2021-10-05T11:45:01</property>
+    <property name="shotcut:hash">0c7ead122d55e0bc78fafb4a78503367</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">under-pressure-michael-kobrin-105bpm-3781.mp3</property>
+    <property name="xml">was here</property>
+  </producer>
+  <tractor id="tractor5" global_feed="1" in="00:00:00.000" out="00:00:01.720">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer14" in="00:01:36.280" out="00:01:38.000"/>
+    <track producer="producer15" in="00:00:00.000" out="00:00:01.720"/>
+    <transition id="transition10" out="00:00:01.720">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition11" out="00:00:01.720">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+      <property name="mlt_service">mix</property>
+    </transition>
+  </tractor>
+  <playlist id="playlist1">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V2</property>
+    <entry producer="producer9" in="00:00:00.000" out="00:01:55.800"/>
+    <entry producer="tractor0" in="00:00:00.000" out="00:00:03.240"/>
+    <entry producer="producer10" in="00:00:03.280" out="00:01:54.920"/>
+    <entry producer="tractor1" in="00:00:00.000" out="00:00:03.800"/>
+    <entry producer="producer11" in="00:00:03.840" out="00:03:00.160"/>
+    <entry producer="tractor2" in="00:00:00.000" out="00:00:03.200"/>
+    <entry producer="producer12" in="00:00:03.240" out="00:02:15.200"/>
+    <entry producer="tractor3" in="00:00:00.000" out="00:00:04.720"/>
+    <entry producer="producer13" in="00:00:04.760" out="00:03:42.680"/>
+    <entry producer="tractor4" in="00:00:00.000" out="00:00:03.240"/>
+    <entry producer="producer14" in="00:00:03.280" out="00:01:36.240"/>
+    <entry producer="tractor5" in="00:00:00.000" out="00:00:01.720"/>
+    <entry producer="producer15" in="00:00:01.760" out="00:02:42.200"/>
+  </playlist>
+  <playlist id="playlist2">
+    <property name="shotcut:audio">1</property>
+    <property name="shotcut:name">A1</property>
+    <blank length="00:00:00.040"/>
+  </playlist>
+  <tractor id="tractor6" title="Shotcut version 21.03.21" global_feed="1" in="00:00:00.000" out="00:17:07.440">
+    <property name="shotcut">1</property>
+    <property name="shotcut:scaleFactor">0.135</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">0</property>
+    <track producer="background"/>
+    <track producer="playlist0"/>
+    <track producer="playlist1"/>
+    <track producer="playlist2" hide="video"/>
+    <transition id="transition12">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition13">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="threads">0</property>
+      <property name="disable">1</property>
+    </transition>
+    <transition id="transition14">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition15">
+      <property name="a_track">1</property>
+      <property name="b_track">2</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="threads">0</property>
+      <property name="disable">0</property>
+    </transition>
+    <transition id="transition16">
+      <property name="a_track">0</property>
+      <property name="b_track">3</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+  </tractor>
+</mlt>

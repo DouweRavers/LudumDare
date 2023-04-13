@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="120"
+   height="120"
+   viewBox="0 0 31.75 31.75"
+   version="1.1"
+   id="svg5"
+   inkscape:export-filename="C:\Users\douwe\Documents\_Projects\LudumDare49\UnityProject\Assets\Textures\aimpointGood.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="Target.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="3.4333333"
+     inkscape:cx="47.038835"
+     inkscape:cy="71.650486"
+     inkscape:window-width="2400"
+     inkscape:window-height="1284"
+     inkscape:window-x="2391"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1352">
+      <stop
+         style="stop-color:#000000;stop-opacity:0"
+         offset="0"
+         id="stop1348" />
+      <stop
+         style="stop-color:#eeffaa;stop-opacity:1"
+         offset="1"
+         id="stop1350" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1352"
+       id="radialGradient1354"
+       cx="15.6438"
+       cy="16.029127"
+       fx="15.6438"
+       fy="16.029127"
+       r="8.3803833"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.37702186,1.1494567,-0.95019277,0.3116628,24.976517,-6.9484261)" />
+  </defs>
+  <g
+     inkscape:label="Laag 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <circle
+       style="fill:url(#radialGradient1354);stroke:#f9f9f9;stroke-width:1.32291667;stroke-linecap:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;fill-opacity:1"
+       id="path846"
+       cx="15.875"
+       cy="15.875"
+       r="7.718925"
+       inkscape:export-filename="C:\Users\douwe\Documents\_Projects\LudumDare49\UnityProject\Assets\Textures\aimpointGood.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <ellipse
+       style="fill:#abc837;stroke:#abc837;stroke-width:1.46991;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path1669"
+       cx="15.875"
+       cy="15.875002"
+       rx="0.58796155"
+       ry="0.58796382" />
+    <path
+       style="fill:#abc837;stroke:#abc837;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 15.875,2.6458333 V 11.90625"
+       id="path1821"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#abc837;stroke:#abc837;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 15.875002,19.843752 v 9.260417"
+       id="path1821-0"
+       sodipodi:nodetypes="cc" />
+    <g
+       id="g2201"
+       transform="rotate(90,15.875001,15.875001)"
+       style="fill:#abc837;stroke:#abc837">
+      <path
+         style="fill:#abc837;stroke:#abc837;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 15.875,2.645833 V 11.90625"
+         id="path1821-1"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:#abc837;stroke:#abc837;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 15.875002,19.843752 v 9.260417"
+         id="path1821-0-7"
+         sodipodi:nodetypes="cc" />
+    </g>
+  </g>
+</svg>
