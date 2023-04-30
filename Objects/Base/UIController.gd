@@ -6,7 +6,7 @@ class_name UIController extends Control
 @onready var drone_storage:BoxContainer = $DroneStorage/HBoxContainer/StorageOverview
 @onready var truck_storage:BoxContainer = $TruckStorage/HBoxContainer/StorageOverview
 
-func _process(delta):
+func _process(_delta):
 	drone_storage_display()
 	truck_storage_display()
 

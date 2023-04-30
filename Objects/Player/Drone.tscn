@@ -1,4 +1,4 @@
-[gd_scene load_steps=22 format=3]
+[gd_scene load_steps=22 format=3 uid="uid://bc0d3mosxu1pe"]
 
 [ext_resource type="Script" path="res://Objects/Player/DroneController.gd" id="1_5mkdx"]
 [ext_resource type="Texture2D" uid="uid://cmctscvmu6cbg" path="res://Resources/Drone_PropellorTexture.png" id="2_ebfbm"]
@@ -384,12 +384,12 @@ mesh = SubResource("ArrayMesh_5dt2d")
 skeleton = NodePath("")
 
 [node name="Cylinder001" type="MeshInstance3D" parent="Visual"]
-transform = Transform3D(-0.532292, 0, 0.921957, 0, 1.06458, 0, -0.921957, 0, -0.532292, -0.145355, 0.128415, -0.305508)
+transform = Transform3D(-0.532297, 0, 0.921954, 0, 1.06458, 0, -0.921954, 0, -0.532297, -0.145355, 0.128415, -0.305508)
 mesh = SubResource("ArrayMesh_7klj8")
 skeleton = NodePath("")
 
 [node name="Cylinder002" type="MeshInstance3D" parent="Visual"]
-transform = Transform3D(0.532292, 0, 0.921957, 0, 1.06458, 0, -0.921957, 0, 0.532292, 0.138756, 0.128415, -0.306733)
+transform = Transform3D(0.53229, 0, 0.921958, 0, 1.06458, 0, -0.921958, 0, 0.53229, 0.138756, 0.128415, -0.306733)
 mesh = SubResource("ArrayMesh_she4n")
 skeleton = NodePath("")
 
@@ -412,4 +412,4 @@ libraries = {
 [node name="TargetPivot" type="Node3D" parent="."]
 
 [node name="CameraTarget" type="Marker3D" parent="TargetPivot"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 3)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.75, 1)

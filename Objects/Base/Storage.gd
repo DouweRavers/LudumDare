@@ -3,7 +3,7 @@ class_name Storage extends RefCounted
 var capacity_storage:int
 var container:Array
 
-func _init(capacity:int, content:Array = [0, 0]):
+func _init(capacity:int, content:Array = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]):
 	capacity_storage = capacity
 	container = content
 
@@ -18,7 +18,11 @@ func add_item_to_storage(type:int, value:int)->bool:
 
 func get_content_size()->int: return container.reduce(func(a:int,b:int): return a+b)
 
-func transfer_contents(storage:Storage)->void:
-	for i in range(container.size()):
-		container[i] += storage.container[i]
-		storage.container[i] = 0
+func transfer_contents(storage:Storage, type:int = -1)->void:
+	if type != -1:
+		container[type] += storage.container[type]
+		storage.container[type] = 0
+	else: 
+		for i in range(container.size()):
+			container[i] += storage.container[i]
+			storage.container[i] = 0
