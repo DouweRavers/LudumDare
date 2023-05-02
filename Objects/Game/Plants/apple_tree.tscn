@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3]
+[gd_scene load_steps=7 format=3 uid="uid://4dodh7us6dah"]
 
 [ext_resource type="PackedScene" uid="uid://buf71w0gwhhb5" path="res://Objects/Game/PickableItems/Apple.tscn" id="1_tn0n2"]
 

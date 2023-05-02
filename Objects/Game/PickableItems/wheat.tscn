@@ -1,7 +1,9 @@
-[gd_scene load_steps=15 format=3 uid="uid://b0edk3i6nqk77"]
+[gd_scene load_steps=17 format=3 uid="uid://b0edk3i6nqk77"]
 
 [ext_resource type="Script" path="res://Objects/Game/Pickable.gd" id="1_v84xy"]
 [ext_resource type="ArrayMesh" uid="uid://yha5p03ychea" path="res://Objects/Game/PickableItems/wheat.tres" id="2_uytli"]
+[ext_resource type="PackedScene" uid="uid://buo7htsyakjk2" path="res://Objects/NegativeAudio.tscn" id="3_xl2dt"]
+[ext_resource type="PackedScene" uid="uid://dos2rmt53r2yo" path="res://Objects/PositiveAudio.tscn" id="4_ieiqd"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_t1nbu"]
 transparency = 1
@@ -123,7 +125,6 @@ libraries = {
 "": SubResource("AnimationLibrary_eay6m")
 }
 
-[connection signal="input_event" from="." to="." method="_on_input_event" flags=18]
-[connection signal="mouse_entered" from="." to="." method="_on_mouse_entered" flags=18]
-[connection signal="mouse_exited" from="." to="." method="_on_mouse_exited" flags=18]
-[connection signal="animation_finished" from="AnimationPlayer" to="." method="_on_animation_player_animation_finished" flags=18]
+[node name="NegativeAudio" parent="." instance=ExtResource("3_xl2dt")]
+
+[node name="PositiveAudio" parent="." instance=ExtResource("4_ieiqd")]

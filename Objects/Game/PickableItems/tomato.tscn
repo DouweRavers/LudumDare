@@ -1,7 +1,9 @@
-[gd_scene load_steps=16 format=3 uid="uid://jo0lfotcy8u8"]
+[gd_scene load_steps=18 format=3 uid="uid://jo0lfotcy8u8"]
 
 [ext_resource type="Script" path="res://Objects/Game/Pickable.gd" id="1_20cim"]
 [ext_resource type="ArrayMesh" uid="uid://cpdxyacvusbgp" path="res://Objects/Game/PickableItems/tomato.tres" id="2_b68t4"]
+[ext_resource type="PackedScene" uid="uid://buo7htsyakjk2" path="res://Objects/NegativeAudio.tscn" id="3_8cptm"]
+[ext_resource type="PackedScene" uid="uid://dos2rmt53r2yo" path="res://Objects/PositiveAudio.tscn" id="4_duue0"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qbttr"]
 transparency = 1
@@ -125,6 +127,10 @@ shape = SubResource("SphereShape3D_kjoqw")
 libraries = {
 "": SubResource("AnimationLibrary_eay6m")
 }
+
+[node name="NegativeAudio" parent="." instance=ExtResource("3_8cptm")]
+
+[node name="PositiveAudio" parent="." instance=ExtResource("4_duue0")]
 
 [connection signal="input_event" from="." to="." method="_on_input_event" flags=18]
 [connection signal="mouse_entered" from="." to="." method="_on_mouse_entered" flags=18]

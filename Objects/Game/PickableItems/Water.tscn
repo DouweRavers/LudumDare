@@ -1,7 +1,9 @@
-[gd_scene load_steps=15 format=3 uid="uid://c1kv1y1hidxa"]
+[gd_scene load_steps=17 format=3 uid="uid://c1kv1y1hidxa"]
 
 [ext_resource type="Script" path="res://Objects/Game/Pickable.gd" id="1_gup0c"]
 [ext_resource type="ArrayMesh" uid="uid://dwvqin0yvcals" path="res://Objects/Game/PickableItems/water.tres" id="2_n05pv"]
+[ext_resource type="PackedScene" uid="uid://buo7htsyakjk2" path="res://Objects/NegativeAudio.tscn" id="3_5rnha"]
+[ext_resource type="PackedScene" uid="uid://dos2rmt53r2yo" path="res://Objects/PositiveAudio.tscn" id="4_7fg20"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_t1nbu"]
 transparency = 1
@@ -93,7 +95,7 @@ _data = {
 
 [node name="Water" type="Area3D"]
 script = ExtResource("1_gup0c")
-type = 4
+type = 6
 
 [node name="visual" type="MeshInstance3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.597672, 0)
@@ -124,7 +126,6 @@ libraries = {
 "": SubResource("AnimationLibrary_eay6m")
 }
 
-[connection signal="input_event" from="." to="." method="_on_input_event" flags=18]
-[connection signal="mouse_entered" from="." to="." method="_on_mouse_entered" flags=18]
-[connection signal="mouse_exited" from="." to="." method="_on_mouse_exited" flags=18]
-[connection signal="animation_finished" from="AnimationPlayer" to="." method="_on_animation_player_animation_finished" flags=18]
+[node name="NegativeAudio" parent="." instance=ExtResource("3_5rnha")]
+
+[node name="PositiveAudio" parent="." instance=ExtResource("4_7fg20")]

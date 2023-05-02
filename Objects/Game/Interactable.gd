@@ -3,6 +3,9 @@ class_name Interactable extends CollisionObject3D
 @export var picking_distance = 20
 
 func _ready(): 
+	connect("mouse_entered", _on_mouse_entered)
+	connect("mouse_exited", _on_mouse_exited)
+	connect("input_event", _on_input_event)
 	$HoverIndicator.hide()
 
 func _on_mouse_entered(): if in_distance(): $HoverIndicator.show()

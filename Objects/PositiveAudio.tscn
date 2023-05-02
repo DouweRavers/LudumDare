@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://dos2rmt53r2yo"]
+
+[ext_resource type="AudioStream" uid="uid://c0gktpavlwo7p" path="res://Resources/rightIndicator.wav" id="1_6c2cl"]
+
+[node name="PositiveAudio" type="AudioStreamPlayer"]
+stream = ExtResource("1_6c2cl")

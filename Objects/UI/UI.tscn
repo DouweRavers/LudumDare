@@ -1,0 +1,285 @@
+[gd_scene load_steps=14 format=3 uid="uid://dnvodnp1prmtt"]
+
+[ext_resource type="Script" path="res://Objects/UI/UIController.gd" id="1_dpwbb"]
+[ext_resource type="Texture2D" uid="uid://cx0kucovj6aey" path="res://Textures/UI/StabelizerOn.png" id="5_13xhh"]
+[ext_resource type="FontFile" uid="uid://ps4d50m6sma2" path="res://Resources/Open 24 Display St.ttf" id="7_oyy6w"]
+[ext_resource type="Texture2D" uid="uid://bobxclje8d44b" path="res://Textures/UI/speedIndicator.png" id="8_rk3tq"]
+[ext_resource type="LabelSettings" uid="uid://dw613iat0id58" path="res://Settings/Font.tres" id="9_2td8f"]
+[ext_resource type="PackedScene" uid="uid://c3dwt2hqs4cod" path="res://Objects/UI/Tutorial.tscn" id="11_asany"]
+
+[sub_resource type="Gradient" id="Gradient_28h3y"]
+colors = PackedColorArray(0.806261, 0.410252, 1.92523e-07, 1, 0, 0, 0, 0)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_50p3t"]
+gradient = SubResource("Gradient_28h3y")
+fill_from = Vector2(0, 1)
+fill_to = Vector2(0, 0)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_f5jco"]
+texture = SubResource("GradientTexture2D_50p3t")
+
+[sub_resource type="LabelSettings" id="LabelSettings_nw361"]
+font = ExtResource("7_oyy6w")
+font_size = 30
+font_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_2g6jw"]
+texture = ExtResource("8_rk3tq")
+
+[sub_resource type="InputEventKey" id="InputEventKey_rtp8i"]
+device = -1
+keycode = 84
+unicode = 116
+
+[sub_resource type="Shortcut" id="Shortcut_nfhg7"]
+events = [SubResource("InputEventKey_rtp8i")]
+
+[node name="UI" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 0
+mouse_filter = 2
+script = ExtResource("1_dpwbb")
+
+[node name="Help" type="Button" parent="."]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -100.0
+offset_top = 36.0
+offset_right = -50.0
+offset_bottom = 86.0
+grow_horizontal = 0
+focus_mode = 0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(1, 1, 1, 1)
+text = "?"
+icon = ExtResource("8_rk3tq")
+flat = true
+icon_alignment = 1
+expand_icon = true
+
+[node name="Panel" type="Panel" parent="."]
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -100.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_styles/panel = SubResource("StyleBoxTexture_f5jco")
+
+[node name="DroneStorage" type="HBoxContainer" parent="Panel"]
+layout_mode = 1
+anchors_preset = 9
+anchor_bottom = 1.0
+offset_right = 516.0
+grow_vertical = 2
+alignment = 1
+
+[node name="Slot1" type="TextureRect" parent="Panel/DroneStorage"]
+layout_mode = 2
+expand_mode = 2
+
+[node name="Slot2" type="TextureRect" parent="Panel/DroneStorage"]
+layout_mode = 2
+expand_mode = 2
+
+[node name="Slot3" type="TextureRect" parent="Panel/DroneStorage"]
+layout_mode = 2
+expand_mode = 2
+
+[node name="Slot4" type="TextureRect" parent="Panel/DroneStorage"]
+layout_mode = 2
+expand_mode = 2
+
+[node name="Slot5" type="TextureRect" parent="Panel/DroneStorage"]
+layout_mode = 2
+expand_mode = 2
+
+[node name="OrderOverview" type="HBoxContainer" parent="Panel"]
+layout_mode = 1
+anchors_preset = 11
+anchor_left = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="Slot1" type="TextureRect" parent="Panel/OrderOverview"]
+layout_mode = 2
+expand_mode = 2
+
+[node name="Label" type="Label" parent="Panel/OrderOverview/Slot1"]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -40.0
+offset_top = -23.0
+grow_horizontal = 0
+grow_vertical = 0
+label_settings = SubResource("LabelSettings_nw361")
+
+[node name="Slot2" type="TextureRect" parent="Panel/OrderOverview"]
+layout_mode = 2
+expand_mode = 2
+
+[node name="Label" type="Label" parent="Panel/OrderOverview/Slot2"]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -40.0
+offset_top = -23.0
+grow_horizontal = 0
+grow_vertical = 0
+label_settings = SubResource("LabelSettings_nw361")
+
+[node name="Slot3" type="TextureRect" parent="Panel/OrderOverview"]
+layout_mode = 2
+expand_mode = 2
+
+[node name="Label" type="Label" parent="Panel/OrderOverview/Slot3"]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -40.0
+offset_top = -23.0
+grow_horizontal = 0
+grow_vertical = 0
+label_settings = SubResource("LabelSettings_nw361")
+
+[node name="Slot4" type="TextureRect" parent="Panel/OrderOverview"]
+layout_mode = 2
+expand_mode = 2
+
+[node name="Label" type="Label" parent="Panel/OrderOverview/Slot4"]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -40.0
+offset_top = -23.0
+grow_horizontal = 0
+grow_vertical = 0
+label_settings = SubResource("LabelSettings_nw361")
+
+[node name="Slot5" type="TextureRect" parent="Panel/OrderOverview"]
+layout_mode = 2
+expand_mode = 2
+
+[node name="Label" type="Label" parent="Panel/OrderOverview/Slot5"]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -40.0
+offset_top = -23.0
+grow_horizontal = 0
+grow_vertical = 0
+label_settings = SubResource("LabelSettings_nw361")
+
+[node name="SpeedoMeetor" type="PanelContainer" parent="."]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -75.5
+offset_top = -151.0
+offset_right = 75.5
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_styles/panel = SubResource("StyleBoxTexture_2g6jw")
+
+[node name="Adjustment" type="Control" parent="SpeedoMeetor"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="SpeedoMeetor/Adjustment"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -66.5
+offset_top = -65.5
+offset_right = 51.5
+offset_bottom = 50.5
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+text = "100
+km/h"
+label_settings = ExtResource("9_2td8f")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="stabilizer" type="Button" parent="SpeedoMeetor/Adjustment"]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -26.0
+offset_right = 24.0
+offset_bottom = 50.0
+grow_horizontal = 0
+tooltip_text = "Stablizer
+Shortcut [T]"
+focus_mode = 0
+toggle_mode = true
+button_pressed = true
+shortcut = SubResource("Shortcut_nfhg7")
+icon = ExtResource("5_13xhh")
+flat = true
+icon_alignment = 1
+expand_icon = true
+
+[node name="Tutorial" parent="." instance=ExtResource("11_asany")]
+visible = false
+layout_mode = 1
+
+[node name="Close" type="Button" parent="Tutorial"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -100.0
+offset_top = 36.0
+offset_right = -50.0
+offset_bottom = 86.0
+grow_horizontal = 0
+focus_mode = 0
+theme_override_colors/font_color = Color(1, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0.541176, 0, 0, 1)
+text = "x"
+icon = ExtResource("8_rk3tq")
+flat = true
+icon_alignment = 1
+expand_icon = true
+
+[connection signal="button_down" from="Help" to="." method="_on_help_button_down"]
+[connection signal="toggled" from="SpeedoMeetor/Adjustment/stabilizer" to="." method="_on_stabilizer_toggled"]
+[connection signal="button_down" from="Tutorial/Close" to="." method="_on_close_button_down"]

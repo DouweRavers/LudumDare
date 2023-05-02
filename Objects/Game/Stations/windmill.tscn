@@ -1,7 +1,9 @@
-[gd_scene load_steps=23 format=3 uid="uid://c6gq53vi4ovh"]
+[gd_scene load_steps=25 format=3 uid="uid://c6gq53vi4ovh"]
 
 [ext_resource type="Script" path="res://Objects/Game/Stations/Factory.gd" id="1_v34ou"]
 [ext_resource type="PackedScene" uid="uid://bmevnmh0nyiuk" path="res://Objects/Game/PickableItems/Flower.tscn" id="2_x0fjx"]
+[ext_resource type="PackedScene" uid="uid://buo7htsyakjk2" path="res://Objects/NegativeAudio.tscn" id="3_uro60"]
+[ext_resource type="PackedScene" uid="uid://dos2rmt53r2yo" path="res://Objects/PositiveAudio.tscn" id="4_r6wg3"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_xonmx"]
 size = Vector3(16.8562, 15.405, 15.0641)
@@ -261,6 +263,7 @@ shape = SubResource("BoxShape3D_n2bd1")
 
 [node name="HoverIndicator" type="MeshInstance3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.303, -7.33687, 11.1695)
+visible = false
 mesh = SubResource("ArrayMesh_oel32")
 skeleton = NodePath("")
 
@@ -304,7 +307,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 2)
 [node name="Timer" type="Timer" parent="."]
 autostart = true
 
-[connection signal="input_event" from="." to="." method="_on_input_event" flags=18]
-[connection signal="mouse_entered" from="." to="." method="_on_mouse_entered" flags=18]
-[connection signal="mouse_exited" from="." to="." method="_on_mouse_exited" flags=18]
-[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
+[node name="NegativeAudio" parent="." instance=ExtResource("3_uro60")]
+
+[node name="PositiveAudio" parent="." instance=ExtResource("4_r6wg3")]

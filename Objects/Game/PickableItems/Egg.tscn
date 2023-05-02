@@ -1,7 +1,9 @@
-[gd_scene load_steps=16 format=3 uid="uid://clxlqmoa1gaps"]
+[gd_scene load_steps=18 format=3 uid="uid://clxlqmoa1gaps"]
 
 [ext_resource type="Script" path="res://Objects/Game/Pickable.gd" id="1_l6og6"]
 [ext_resource type="ArrayMesh" uid="uid://bndipwxah3lgv" path="res://Objects/Game/PickableItems/egg.tres" id="2_pnulj"]
+[ext_resource type="PackedScene" uid="uid://buo7htsyakjk2" path="res://Objects/NegativeAudio.tscn" id="3_y45ed"]
+[ext_resource type="PackedScene" uid="uid://dos2rmt53r2yo" path="res://Objects/PositiveAudio.tscn" id="4_w5ghq"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qbttr"]
 transparency = 1
@@ -95,7 +97,7 @@ _data = {
 
 [node name="Egg" type="Area3D"]
 script = ExtResource("1_l6og6")
-type = 1
+type = 3
 
 [node name="visual" type="MeshInstance3D" parent="."]
 transform = Transform3D(0.187955, 0, 0, 0, 0.187955, 0, 0, 0, 0.187955, 0, -0.256432, 0)
@@ -126,7 +128,6 @@ libraries = {
 "": SubResource("AnimationLibrary_eay6m")
 }
 
-[connection signal="input_event" from="." to="." method="_on_input_event" flags=18]
-[connection signal="mouse_entered" from="." to="." method="_on_mouse_entered" flags=18]
-[connection signal="mouse_exited" from="." to="." method="_on_mouse_exited" flags=18]
-[connection signal="animation_finished" from="AnimationPlayer" to="." method="_on_animation_player_animation_finished" flags=18]
+[node name="NegativeAudio" parent="." instance=ExtResource("3_y45ed")]
+
+[node name="PositiveAudio" parent="." instance=ExtResource("4_w5ghq")]

@@ -1,7 +1,9 @@
-[gd_scene load_steps=19 format=3 uid="uid://crya8l71pyrbm"]
+[gd_scene load_steps=21 format=3 uid="uid://crya8l71pyrbm"]
 
 [ext_resource type="Script" path="res://Objects/Game/Stations/Factory.gd" id="1_x4agp"]
 [ext_resource type="PackedScene" uid="uid://c1kv1y1hidxa" path="res://Objects/Game/PickableItems/Water.tscn" id="2_6fmr7"]
+[ext_resource type="PackedScene" uid="uid://buo7htsyakjk2" path="res://Objects/NegativeAudio.tscn" id="3_wo0xq"]
+[ext_resource type="PackedScene" uid="uid://dos2rmt53r2yo" path="res://Objects/PositiveAudio.tscn" id="4_3u0wy"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_xonmx"]
 size = Vector3(2.37267, 10, 2.40952)
@@ -240,7 +242,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.376292, 0.283475, 2.84461)
 [node name="Timer" type="Timer" parent="."]
 autostart = true
 
-[connection signal="input_event" from="." to="." method="_on_input_event" flags=18]
-[connection signal="mouse_entered" from="." to="." method="_on_mouse_entered" flags=18]
-[connection signal="mouse_exited" from="." to="." method="_on_mouse_exited" flags=18]
-[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout" flags=18]
+[node name="NegativeAudio" parent="." instance=ExtResource("3_wo0xq")]
+
+[node name="PositiveAudio" parent="." instance=ExtResource("4_3u0wy")]

@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://buo7htsyakjk2"]
+
+[ext_resource type="AudioStream" uid="uid://d1vrsrbmm5mbi" path="res://Resources/wrongIndicator.wav" id="1_elde1"]
+
+[node name="NegativeAudio" type="AudioStreamPlayer"]
+stream = ExtResource("1_elde1")

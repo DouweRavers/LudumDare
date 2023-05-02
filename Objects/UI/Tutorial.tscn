@@ -1,0 +1,47 @@
+[gd_scene load_steps=4 format=3 uid="uid://c3dwt2hqs4cod"]
+
+[ext_resource type="Script" path="res://Objects/UI/Tutorial.gd" id="1_1u0s6"]
+[ext_resource type="Texture2D" uid="uid://cl748faln7ike" path="res://Textures/Tutorial/Slide1.PNG" id="1_hlagv"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_qekoj"]
+bg_color = Color(0.298039, 0.298039, 0.298039, 1)
+
+[node name="Tutorial" type="Panel"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_qekoj")
+
+[node name="Tutorial" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_vertical = 3
+script = ExtResource("1_1u0s6")
+
+[node name="Slide" type="TextureRect" parent="Tutorial"]
+layout_mode = 2
+size_flags_vertical = 3
+texture = ExtResource("1_hlagv")
+expand_mode = 3
+stretch_mode = 5
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Tutorial"]
+layout_mode = 2
+alignment = 1
+
+[node name="Previous" type="Button" parent="Tutorial/HBoxContainer"]
+layout_mode = 2
+text = "Previous"
+
+[node name="Next" type="Button" parent="Tutorial/HBoxContainer"]
+layout_mode = 2
+text = "Next"
+
+[connection signal="button_down" from="Tutorial/HBoxContainer/Previous" to="Tutorial" method="_on_previous_button_down"]
+[connection signal="button_down" from="Tutorial/HBoxContainer/Next" to="Tutorial" method="_on_next_button_down"]

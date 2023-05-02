@@ -1,7 +1,9 @@
-[gd_scene load_steps=18 format=3 uid="uid://twousi1wjnd8"]
+[gd_scene load_steps=20 format=3 uid="uid://twousi1wjnd8"]
 
 [ext_resource type="Script" path="res://Objects/Game/Stations/Factory.gd" id="1_2dre4"]
 [ext_resource type="PackedScene" uid="uid://dju1xxruv8kdo" path="res://Objects/Game/PickableItems/Milk.tscn" id="2_a8mkh"]
+[ext_resource type="PackedScene" uid="uid://buo7htsyakjk2" path="res://Objects/NegativeAudio.tscn" id="3_q0mit"]
+[ext_resource type="PackedScene" uid="uid://dos2rmt53r2yo" path="res://Objects/PositiveAudio.tscn" id="4_y8a1a"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_xonmx"]
 size = Vector3(4.83576, 3.21709, 1.76198)
@@ -190,8 +192,6 @@ script = SubResource("GDScript_854bt")
 [node name="Timer" type="Timer" parent="."]
 autostart = true
 
-[connection signal="input_event" from="." to="." method="_on_input_event" flags=18]
-[connection signal="mouse_entered" from="." to="." method="_on_mouse_entered" flags=18]
-[connection signal="mouse_exited" from="." to="." method="_on_mouse_exited" flags=18]
-[connection signal="child_entered_tree" from="SpawnPoints/pos1" to="SpawnPoints/pos1" method="_on_child_entered_tree"]
-[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout" flags=18]
+[node name="NegativeAudio" parent="." instance=ExtResource("3_q0mit")]
+
+[node name="PositiveAudio" parent="." instance=ExtResource("4_y8a1a")]

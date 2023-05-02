@@ -6,13 +6,18 @@ class_name Factory extends Interactable
 
 var storage:Storage = Storage.new(100)
 
+func _ready():
+	super._ready()
+	$Timer.connect("timeout", _on_timer_timeout)
+
 func on_clicked():
 	var player:PlayerController = get_tree().get_root().get_node("Level/Player")
 	if 0 < player.storage.container[input_item_type]:
 		storage.transfer_contents(player.storage, input_item_type)
 		$PressedIndicator.restart()
+		$PositiveAudio.play()
 	else:
-		print("No items of required type in storage")
+		$NegativeAudio.play()
 
 func _on_timer_timeout():
 	if 0 < storage.container[input_item_type]:

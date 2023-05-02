@@ -1,7 +1,9 @@
-[gd_scene load_steps=15 format=3 uid="uid://dju1xxruv8kdo"]
+[gd_scene load_steps=17 format=3 uid="uid://dju1xxruv8kdo"]
 
 [ext_resource type="Script" path="res://Objects/Game/Pickable.gd" id="1_6ttgr"]
 [ext_resource type="ArrayMesh" uid="uid://bywam134d4s5d" path="res://Objects/Game/PickableItems/milk.tres" id="2_b5b0x"]
+[ext_resource type="PackedScene" uid="uid://buo7htsyakjk2" path="res://Objects/NegativeAudio.tscn" id="3_rlqo8"]
+[ext_resource type="PackedScene" uid="uid://dos2rmt53r2yo" path="res://Objects/PositiveAudio.tscn" id="4_k4o7n"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_t1nbu"]
 transparency = 1
@@ -123,6 +125,10 @@ shape = SubResource("BoxShape3D_gv3n2")
 libraries = {
 "": SubResource("AnimationLibrary_eay6m")
 }
+
+[node name="NegativeAudio" parent="." instance=ExtResource("3_rlqo8")]
+
+[node name="PositiveAudio" parent="." instance=ExtResource("4_k4o7n")]
 
 [connection signal="input_event" from="." to="." method="_on_input_event" flags=18]
 [connection signal="mouse_entered" from="." to="." method="_on_mouse_entered" flags=18]

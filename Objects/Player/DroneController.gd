@@ -4,7 +4,6 @@ class_name DroneController extends PhysicsBody3D
 @export var throttle_power:float=0.5
 @export var steering_power:float=10
 
-var stable_force:float=30.0
 var input_vector:Vector4=Vector4.ZERO
 var velocity:Vector3=Vector3.ZERO
 
@@ -13,7 +12,7 @@ func _input(_event)->void:
 	input_vector.y = Input.get_axis("ThrottleUp", "ThrottleDown")
 	input_vector.z = Input.get_axis("TurnRight", "TurnLeft")
 	input_vector.w = Input.get_axis("SideRight", "SideLeft")
-	if Input.is_action_just_pressed("ToggleStablizer"): toggle_stablizer = !toggle_stablizer
+
 
 func _process(delta)->void:
 	# steering
@@ -34,3 +33,6 @@ func _process(delta)->void:
 	var collision = move_and_collide(velocity)
 	if collision != null:
 		velocity = -velocity / 2
+	
+	# audio
+	$AudioStreamPlayer3D.pitch_scale = 1+clamp(force.length(), 0, 0.5)

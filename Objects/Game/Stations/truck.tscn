@@ -1,6 +1,8 @@
-[gd_scene load_steps=20 format=3 uid="uid://cpfqe4b8d6us5"]
+[gd_scene load_steps=22 format=3 uid="uid://cpfqe4b8d6us5"]
 
 [ext_resource type="Script" path="res://Objects/Game/Stations/Truck.gd" id="1_kpcg4"]
+[ext_resource type="PackedScene" uid="uid://buo7htsyakjk2" path="res://Objects/NegativeAudio.tscn" id="2_ast62"]
+[ext_resource type="PackedScene" uid="uid://dos2rmt53r2yo" path="res://Objects/PositiveAudio.tscn" id="3_uxwv1"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_xonmx"]
 size = Vector3(10.863, 5, 3.90256)
@@ -277,7 +279,7 @@ mesh = SubResource("ArrayMesh_dsu3e")
 skeleton = NodePath("")
 
 [node name="PressedIndicator" type="GPUParticles3D" parent="."]
-transform = Transform3D(0.152103, 0, 0, 0, 0.152103, 0, 0, 0, 0.152103, 2.02609, 0.341234, 0.213875)
+transform = Transform3D(0.152103, 0, 0, 0, 0.152103, 0, 0, 0, 0.152103, 2.02751, 0.251852, 0.213234)
 material_override = SubResource("StandardMaterial3D_a6q1v")
 emitting = false
 lifetime = 0.5
@@ -287,6 +289,6 @@ visibility_aabb = AABB(-32.5197, -11.8258, -12.3394, 65.0394, 23.6516, 24.6787)
 process_material = SubResource("ParticleProcessMaterial_eit8a")
 draw_pass_1 = SubResource("SphereMesh_2qouw")
 
-[connection signal="input_event" from="." to="." method="_on_input_event" flags=18]
-[connection signal="mouse_entered" from="." to="." method="_on_mouse_entered" flags=18]
-[connection signal="mouse_exited" from="." to="." method="_on_mouse_exited" flags=18]
+[node name="NegativeAudio" parent="." instance=ExtResource("2_ast62")]
+
+[node name="PositiveAudio" parent="." instance=ExtResource("3_uxwv1")]

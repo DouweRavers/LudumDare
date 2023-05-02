@@ -1,0 +1,8 @@
+[gd_resource type="LabelSettings" load_steps=2 format=3 uid="uid://dw613iat0id58"]
+
+[ext_resource type="FontFile" uid="uid://ps4d50m6sma2" path="res://Resources/Open 24 Display St.ttf" id="1_7hajo"]
+
+[resource]
+font = ExtResource("1_7hajo")
+font_size = 30
+font_color = Color(1, 0.516667, 0, 1)
